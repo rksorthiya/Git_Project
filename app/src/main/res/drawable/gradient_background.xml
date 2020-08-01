@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#5E35B1"
+                android:endColor="#7E57C2"
+                android:type="linear"/>
+        </shape>
+    </item>
+</selector>
+<!--    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);-->
