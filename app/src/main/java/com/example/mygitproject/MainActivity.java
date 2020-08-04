@@ -18,8 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_splash_screen);
+
         bgimg = findViewById(R.id.bgimg);
-        ((View) bgimg).animate().alpha(4000).setDuration(0);
+        ((View) bgimg).animate().alpha(4000);
 
         handler = new Handler();
         handler.postDelayed(new Runnable() {

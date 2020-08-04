@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Git Project</string>
+    <string name="lblloginform">"Login Form"</string>
 </resources>
